@@ -1,0 +1,7 @@
+check_number1, check_number2 = map (int, input("Enter two numbers:").split())
+if check_number1 < check_number2:
+    print("The Largest Number is :", check_number2)
+elif check_number2 < check_number1:
+        print("The Largest Number is :", check_number1)     
+else:
+        print("The both Number is same")

@@ -1,0 +1,5 @@
+check_mark = int(input("Enter a Student Mark:"))
+if check_mark>= 40:
+    print("Pass Mark")
+else:
+    print("Fail Mark")

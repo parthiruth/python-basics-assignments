@@ -1,0 +1,5 @@
+check_age = int(input("Input a Age:"))
+if check_age >= 18 :
+    print ("The person qualifies to vote.")
+else:
+    print ("The person not qualifies to vote.")

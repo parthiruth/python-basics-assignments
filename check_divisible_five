@@ -1,0 +1,5 @@
+check_number = int(input("Input a number only divisible by 5:"))
+if check_number%5 == 0:
+    print("the number is divisible by five")
+else:
+    print("the number is not divisible by five")
