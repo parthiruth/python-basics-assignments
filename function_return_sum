@@ -1,0 +1,5 @@
+def add(a, b):
+    return a + b
+check_number, check_number1 = map(int, input("Enter the 2 numbers:").split())
+result = add(check_number, check_number1)
+print(result)

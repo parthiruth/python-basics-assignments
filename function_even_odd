@@ -1,0 +1,7 @@
+def even_odd(num):
+    if num % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
+result= int(input("Enter the number:"))
+even_odd(result)

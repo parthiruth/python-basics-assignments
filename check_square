@@ -1,0 +1,3 @@
+check_number= int(input("Enter the number:"))
+check_number= check_number ** 2
+print(check_number)
