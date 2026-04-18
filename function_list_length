@@ -1,0 +1,5 @@
+def check_length(lst):
+    print (len(lst))
+# list=[10,20,30]
+check_length(list(map(int, input("enter numbers with space:").split("."))))
+

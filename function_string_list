@@ -1,0 +1,3 @@
+def check_string_list(name):
+    print(len(name))
+check_string_list(input("enter a name:"))

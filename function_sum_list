@@ -1,0 +1,5 @@
+def sum_of_list(lst):
+    print(sum(lst))
+
+# list_of_sum = [10,20,30]
+sum_of_list(list(map(int, input("Enter the numbers of sum with comma:").split(","))))

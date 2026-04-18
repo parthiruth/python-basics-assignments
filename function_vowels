@@ -1,0 +1,6 @@
+def check_vowels(name):
+    vowels = "aeiouAEIOU"
+    for char in name:
+        if char in vowels:
+            print(char)
+check_vowels(input("Enter your name:"))
